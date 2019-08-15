@@ -8,8 +8,16 @@
   },
   "keywords": [],
   "author": "Mac Heller-Ogden",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/machellerogden/streamface.git"
+  },
+  "homepage": "https://github.com/machellerogden/streamface",
   "license": "MIT",
   "dependencies": {
     "clipboardy": "^2.1.0"
+  },
+  "devDependencies": {
+    "async-stream-generator": "^1.0.3"
   }
 }
