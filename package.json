@@ -1,6 +1,6 @@
 {
   "name": "streamface",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "command-line wrapper for stream-based tools",
   "main": "index.js",
   "scripts": {
