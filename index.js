@@ -5,7 +5,7 @@ function wrap({ readToStream, readAll, module }) {
         process.stdin.isTTY
             ? process.argv[2] == null
                 ? require('./repl')({ readAll }).start()
-                : readToStream(process.argv.slice(2).join(' ')).pipe(process.stdout)
+                : readToStream(process.argv.slice(2)).pipe(process.stdout)
             : readToStream(process.stdin).pipe(process.stdout);
     }
 }
