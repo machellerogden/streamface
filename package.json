@@ -15,7 +15,7 @@
   "homepage": "https://github.com/machellerogden/streamface",
   "license": "MIT",
   "dependencies": {
-    "clipboardy": "^2.1.0"
+    "clipboardy": "^3.0.0"
   },
   "devDependencies": {
     "async-stream-generator": "^1.0.3"
